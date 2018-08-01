@@ -1,6 +1,6 @@
 {
   "name": "react-font-size-resizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package adds buttons that allow you to resize the font size of the entire html React App",
   "author": "fcabanasm",
   "license": "MIT",
@@ -13,7 +13,8 @@
     "font-size",
     "text-size",
     "resizer",
-    "modifier"
+    "modifier",
+    "accessibility"
   ],
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -64,7 +65,5 @@
     "rollup-plugin-postcss": "^1.6.2",
     "rollup-plugin-url": "^1.4.0"
   },
-  "files": [
-    "dist"
-  ]
+  "files": ["dist"]
 }
